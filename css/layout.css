@@ -197,7 +197,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px "Helvetica Neue", Helvetica, Arial,, sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
