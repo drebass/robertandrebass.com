@@ -360,6 +360,11 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.coffee {
+  	width: 95%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
 .java {
   	width: 80%;
   	-moz-animation: photoshop 2s ease;
@@ -410,11 +415,6 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
-.mac {
-  	width: 80%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
 .photoshop {
   	width: 90%;
   	-moz-animation: jquery 2s ease;
@@ -425,8 +425,16 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.dance {
+  	width: 40%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
 
-
+@-moz-keyframes coffee {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
 @-moz-keyframes java {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -467,10 +475,6 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes mac {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 50%;  }
@@ -478,6 +482,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes indesign {
   0%   { width: 0px;  }
   100% { width: 90%;  }
+}
+@-moz-keyframes dance {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
 }
 
 /* ------------------------------------------------------------------ */
