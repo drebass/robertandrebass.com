@@ -335,7 +335,7 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.c++ {
+.cplusplus {
   	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
@@ -385,7 +385,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes c++ {
+@-moz-keyframes cplusplus {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
