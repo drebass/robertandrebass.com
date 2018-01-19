@@ -307,6 +307,18 @@ ul#nav li.current a { color: #F06000; }
     border-radius: 30px
 }
 
+.status__light__led {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #bada55;
+    border-radius: 100%
+}
+
+.status__message {
+    margin-left: 15px
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
