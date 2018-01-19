@@ -272,14 +272,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
-   margin-right: 5px;
-   margin-left: 5px;
-}
-#resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
-}
+
 .status {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -331,7 +324,14 @@ ul#nav li.current a { color: #F06000; }
 .status__message {
     margin-left: 15px
 }
-
+#resume .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
 
 /*----------------------------------------------*/
 /*	Skill Bars
