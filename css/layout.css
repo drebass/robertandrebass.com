@@ -272,58 +272,6 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
-
-.status {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 1.1rem;
-    font-family: Inconsolata, monospace;
-    margin-top: 70px;
-    color: #131417
-}
-
-.status__light {
-    width: 30px;
-    height: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
-}
-
-.status__light__ring {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    -webkit-animation: pulsate 2s ease-out;
-    animation: pulsate 2s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    opacity: 0;
-    border: 3px solid #bada55;
-    border-radius: 30px
-}
-
-.status__light__led {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    background: #bada55;
-    border-radius: 100%
-}
-
-.status__message {
-    margin-left: 15px
-}
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
