@@ -339,7 +339,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #dcba83;
+   color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -353,7 +353,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #dcb386;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
