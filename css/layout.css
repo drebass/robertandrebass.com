@@ -353,7 +353,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #dcb386;
+  	background: #313131;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -364,6 +364,7 @@ ul#nav li.current a { color: #F06000; }
   	width: 95%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
+	background-color: #dcba83;
 }
 .java {
   	width: 85%;
