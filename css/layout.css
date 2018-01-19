@@ -285,6 +285,64 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+		#container4 {
+			clear:left;
+			float:left;
+			width:100%;
+			overflow:hidden;
+			background:#ffffff; /* column 4 background colour */
+		}
+		#container3 {
+			clear:left;
+			float:left;
+			width:100%;
+			position:relative;
+			right:25%;
+			background:#ffffff; /* column 3 background colour */
+		}
+		#container2 {
+			clear:left;
+			float:left;
+			width:100%;
+			position:relative;
+			right:25%;
+			background:#ffffff; /* column 2 background colour */
+		}
+		#container1 {
+			float:left;
+			width:100%;
+			position:relative;
+			right:25%;
+			background:#ffffff; /* column 1 background colour */
+		}
+		#col1 {
+			float:left;
+			width:21%;
+			position:relative;
+			left:77%;
+			overflow:hidden;
+		}
+		#col2 {
+			float:left;
+			width:21%;
+			position:relative;
+			left:81%;
+			overflow:hidden;
+		}
+		#col3 {
+			float:left;
+			width:21%;
+			position:relative;
+			left:85%;
+			overflow:hidden;
+		}
+		#col4 {
+			float:left;
+			width:21%;
+			position:relative;
+			left:89%;
+			overflow:hidden;
+}
 .skills .skillz {
     display: -webkit-box;
     display: -ms-flexbox;
