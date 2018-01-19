@@ -339,7 +339,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #dcba83;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -364,7 +364,6 @@ ul#nav li.current a { color: #F06000; }
   	width: 95%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
-	background-color: #dcba83;
 }
 .java {
   	width: 85%;
