@@ -1,0 +1,259 @@
+/* Main Clor */
+.single-stat h2, .about-text h2 span, .welcome-area .home-arrow a, .welcome-text h1 .element, .single-service i.fa, .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .timeline-heading p small span.timeline-duration{
+     color: #07cb78;
+ }
+ .logo a span, .filled-btn, .social-links a:hover, ul.work-list li.active, .hover-content a, .btn.btn-effect.disabled, .read-more-btn, .skill-btn span:hover, .timeline > li > .timeline-badge, .section-title p, .owl-nav div:hover {
+     background: #07cb78 none repeat scroll 0 0;
+     color: #fff;
+ }
+.work-img {
+	border-bottom: 4px solid #07cb78;
+}
+ .testimonial-area .owl-dots div.active, .timeline:before, .progress-bar {
+     background-color: #07cb78;
+ }
+.single-address:hover i.fa{
+    border: 1px solid #07cb78;
+}
+.filled-btn:hover, .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* green Clor */
+.green_color_theme .single-stat h2, .green_color_theme .about-text h2 span, .green_color_theme .welcome-area .home-arrow a, .green_color_theme .welcome-text h1 .element, .green_color_theme .single-service i.fa, .green_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .green_color_theme .timeline-heading p small span.timeline-duration{
+     color: #07cb78;
+ }
+ .green_color_theme .logo a span, .green_color_theme .filled-btn, .green_color_theme .social-links a:hover, .green_color_theme ul.work-list li.active, .green_color_theme .hover-content a, .green_color_theme .btn.btn-effect.disabled, .green_color_theme .read-more-btn, .green_color_theme .skill-btn span:hover, .green_color_theme .timeline > li > .timeline-badge, .green_color_theme .section-title p, .green_color_theme .owl-nav div:hover {
+     background: #07cb78 none repeat scroll 0 0;
+     color: #fff;
+ }
+.green_color_theme .work-img {
+	border-bottom: 4px solid #07cb78;
+}
+ .green_color_theme .testimonial-area .owl-dots div.active, .green_color_theme .timeline:before, .green_color_theme .progress-bar {
+     background-color: #07cb78;
+ }
+.green_color_theme .single-address:hover i.fa{
+    border: 1px solid #07cb78;
+}
+.green_color_theme .filled-btn:hover, .green_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.green_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* red Clor */
+.red_color_theme .single-stat h2, .red_color_theme .about-text h2 span, .red_color_theme .welcome-area .home-arrow a, .red_color_theme .welcome-text h1 .element, .red_color_theme .single-service i.fa, .red_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .red_color_theme .timeline-heading p small span.timeline-duration{
+     color: #DC143C;
+ }
+ .red_color_theme .logo a span, .red_color_theme .filled-btn, .red_color_theme .social-links a:hover, .red_color_theme ul.work-list li.active, .red_color_theme .hover-content a, .red_color_theme .btn.btn-effect.disabled, .red_color_theme .read-more-btn, .red_color_theme .skill-btn span:hover, .red_color_theme .timeline > li > .timeline-badge, .red_color_theme .section-title p, .red_color_theme .owl-nav div:hover {
+     background: #DC143C none repeat scroll 0 0;
+     color: #fff;
+ }
+.red_color_theme .work-img {
+	border-bottom: 4px solid #DC143C;
+}
+ .red_color_theme .testimonial-area .owl-dots div.active, .red_color_theme .timeline:before, .red_color_theme .progress-bar {
+     background-color: #DC143C;
+ }
+.red_color_theme .single-address:hover i.fa{
+    border: 1px solid #DC143C;
+}
+.red_color_theme .filled-btn:hover, .red_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.red_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* yellow Color */
+.yellow_color_theme .single-stat h2, .yellow_color_theme .about-text h2 span, .yellow_color_theme .welcome-area .home-arrow a, .yellow_color_theme .welcome-text h1 .element, .yellow_color_theme .single-service i.fa, .yellow_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .yellow_color_theme .timeline-heading p small span.timeline-duration{
+     color: #fec816;
+ }
+ .yellow_color_theme .logo a span, .yellow_color_theme .filled-btn, .yellow_color_theme .social-links a:hover, .yellow_color_theme ul.work-list li.active, .yellow_color_theme .hover-content a, .yellow_color_theme .btn.btn-effect.disabled, .yellow_color_theme .read-more-btn, .yellow_color_theme .skill-btn span:hover, .yellow_color_theme .timeline > li > .timeline-badge, .yellow_color_theme .section-title p, .yellow_color_theme .owl-nav div:hover {
+     background: #fec816 none repeat scroll 0 0;
+     color: #222;
+ }
+.yellow_color_theme .work-img {
+	border-bottom: 4px solid #fec816;
+}
+ .yellow_color_theme .testimonial-area .owl-dots div.active, .yellow_color_theme .timeline:before, .yellow_color_theme .progress-bar {
+     background-color: #fec816;
+ }
+.yellow_color_theme .single-address:hover i.fa{
+    border: 1px solid #fec816;
+}
+.yellow_color_theme .filled-btn:hover, .yellow_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.yellow_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* pink Color */
+.pink_color_theme .single-stat h2, .pink_color_theme .about-text h2 span, .pink_color_theme .welcome-area .home-arrow a, .pink_color_theme .welcome-text h1 .element, .pink_color_theme .single-service i.fa, .pink_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .pink_color_theme .timeline-heading p small span.timeline-duration{
+     color: #D2527F;
+ }
+ .pink_color_theme .logo a span, .pink_color_theme .filled-btn, .pink_color_theme .social-links a:hover, .pink_color_theme ul.work-list li.active, .pink_color_theme .hover-content a, .pink_color_theme .btn.btn-effect.disabled, .pink_color_theme .read-more-btn, .pink_color_theme .skill-btn span:hover, .pink_color_theme .timeline > li > .timeline-badge, .pink_color_theme .section-title p, .pink_color_theme .owl-nav div:hover {
+     background: #D2527F none repeat scroll 0 0;
+     color: #fff;
+ }
+.pink_color_theme .work-img {
+	border-bottom: 4px solid #D2527F;
+}
+ .pink_color_theme .testimonial-area .owl-dots div.active, .pink_color_theme .timeline:before, .pink_color_theme .progress-bar {
+     background-color: #D2527F;
+ }
+.pink_color_theme .single-address:hover i.fa{
+    border: 1px solid #D2527F;
+}
+.pink_color_theme .filled-btn:hover, .pink_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.pink_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* purple Clor */
+.purple_color_theme .single-stat h2, .purple_color_theme .about-text h2 span, .purple_color_theme .welcome-area .home-arrow a, .purple_color_theme .welcome-text h1 .element, .purple_color_theme .single-service i.fa, .purple_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .purple_color_theme .timeline-heading p small span.timeline-duration{
+     color: #16A085;
+ }
+ .purple_color_theme .logo a span, .purple_color_theme .filled-btn, .purple_color_theme .social-links a:hover, .purple_color_theme ul.work-list li.active, .purple_color_theme .hover-content a, .purple_color_theme .btn.btn-effect.disabled, .purple_color_theme .read-more-btn, .purple_color_theme .skill-btn span:hover, .purple_color_theme .timeline > li > .timeline-badge, .purple_color_theme .section-title p, .purple_color_theme .owl-nav div:hover {
+     background: #16A085 none repeat scroll 0 0;
+     color: #fff;
+ }
+.purple_color_theme .work-img {
+	border-bottom: 4px solid #16A085;
+}
+ .purple_color_theme .testimonial-area .owl-dots div.active, .purple_color_theme .timeline:before, .purple_color_theme .progress-bar {
+     background-color: #16A085;
+ }
+.purple_color_theme .single-address:hover i.fa{
+    border: 1px solid #16A085;
+}
+.purple_color_theme .filled-btn:hover, .purple_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.purple_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* sky Clor */
+.sky_color_theme .single-stat h2, .sky_color_theme .about-text h2 span, .sky_color_theme .welcome-area .home-arrow a, .sky_color_theme .welcome-text h1 .element, .sky_color_theme .single-service i.fa, .sky_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .sky_color_theme .timeline-heading p small span.timeline-duration{
+     color: #304fff;
+ }
+ .sky_color_theme .logo a span, .sky_color_theme .filled-btn, .sky_color_theme .social-links a:hover, .sky_color_theme ul.work-list li.active, .sky_color_theme .hover-content a, .sky_color_theme .btn.btn-effect.disabled, .sky_color_theme .read-more-btn, .sky_color_theme .skill-btn span:hover, .sky_color_theme .timeline > li > .timeline-badge, .sky_color_theme .section-title p, .sky_color_theme .owl-nav div:hover {
+     background: #304fff none repeat scroll 0 0;
+     color: #fff;
+ }
+.sky_color_theme .work-img {
+	border-bottom: 4px solid #304fff;
+}
+ .sky_color_theme .testimonial-area .owl-dots div.active, .sky_color_theme .timeline:before, .sky_color_theme .progress-bar {
+     background-color: #304fff;
+ }
+.sky_color_theme .single-address:hover i.fa{
+    border: 1px solid #304fff;
+}
+.sky_color_theme .filled-btn:hover, .sky_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.sky_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* blue Clor */
+.blue_color_theme .single-stat h2, .blue_color_theme .about-text h2 span, .blue_color_theme .welcome-area .home-arrow a, .blue_color_theme .welcome-text h1 .element, .blue_color_theme .single-service i.fa, .blue_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .blue_color_theme .timeline-heading p small span.timeline-duration{
+     color: #2196F4;
+ }
+ .blue_color_theme .logo a span, .blue_color_theme .filled-btn, .blue_color_theme .social-links a:hover, .blue_color_theme ul.work-list li.active, .blue_color_theme .hover-content a, .blue_color_theme .btn.btn-effect.disabled, .blue_color_theme .read-more-btn, .blue_color_theme .skill-btn span:hover, .blue_color_theme .timeline > li > .timeline-badge, .blue_color_theme .section-title p, .blue_color_theme .owl-nav div:hover {
+     background: #2196F4 none repeat scroll 0 0;
+     color: #fff;
+ }
+.blue_color_theme .work-img {
+	border-bottom: 4px solid #2196F4;
+}
+ .blue_color_theme .testimonial-area .owl-dots div.active, .blue_color_theme .timeline:before, .blue_color_theme .progress-bar {
+     background-color: #2196F4;
+ }
+.blue_color_theme .single-address:hover i.fa{
+    border: 1px solid #2196F4;
+}
+.blue_color_theme .filled-btn:hover, .blue_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.blue_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* gold Clor */
+.gold_color_theme .single-stat h2, .gold_color_theme .about-text h2 span, .gold_color_theme .welcome-area .home-arrow a, .gold_color_theme .welcome-text h1 .element, .gold_color_theme .single-service i.fa, .gold_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .gold_color_theme .timeline-heading p small span.timeline-duration{
+     color: #bea042;
+ }
+ .gold_color_theme .logo a span, .gold_color_theme .filled-btn, .gold_color_theme .social-links a:hover, .gold_color_theme ul.work-list li.active, .gold_color_theme .hover-content a, .gold_color_theme .btn.btn-effect.disabled, .gold_color_theme .read-more-btn, .gold_color_theme .skill-btn span:hover, .gold_color_theme .timeline > li > .timeline-badge, .gold_color_theme .section-title p, .gold_color_theme .owl-nav div:hover {
+     background: #bea042 none repeat scroll 0 0;
+     color: #fff;
+ }
+.gold_color_theme .work-img {
+	border-bottom: 4px solid #bea042;
+}
+ .gold_color_theme .testimonial-area .owl-dots div.active, .gold_color_theme .timeline:before, .gold_color_theme .progress-bar {
+     background-color: #bea042;
+ }
+.gold_color_theme .single-address:hover i.fa{
+    border: 1px solid #bea042;
+}
+.gold_color_theme .filled-btn:hover, .gold_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.gold_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
+
+/* lime Clor */
+.lime_color_theme .single-stat h2, .lime_color_theme .about-text h2 span, .lime_color_theme .welcome-area .home-arrow a, .lime_color_theme .welcome-text h1 .element, .lime_color_theme .single-service i.fa, .lime_color_theme .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li.active a, .lime_color_theme .timeline-heading p small span.timeline-duration{
+     color: #abc502;
+ }
+ .lime_color_theme .logo a span, .lime_color_theme .filled-btn, .lime_color_theme .social-links a:hover, .lime_color_theme ul.work-list li.active, .lime_color_theme .hover-content a, .lime_color_theme .btn.btn-effect.disabled, .lime_color_theme .read-more-btn, .lime_color_theme .skill-btn span:hover, .lime_color_theme .timeline > li > .timeline-badge, .lime_color_theme .section-title p, .lime_color_theme .owl-nav div:hover {
+     background: #abc502 none repeat scroll 0 0;
+     color: #fff;
+ }
+.lime_color_theme .work-img {
+	border-bottom: 4px solid #abc502;
+}
+ .lime_color_theme .testimonial-area .owl-dots div.active, .lime_color_theme .timeline:before, .lime_color_theme .progress-bar {
+     background-color: #abc502;
+ }
+.lime_color_theme .single-address:hover i.fa{
+    border: 1px solid #abc502;
+}
+.lime_color_theme .filled-btn:hover, .lime_color_theme .read-more-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.lime_color_theme .hover-content a:hover {
+     background: #fff;
+     color: #222;
+ }
