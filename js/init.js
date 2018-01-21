@@ -132,18 +132,6 @@
       animationSpeed: 600,
       randomize: false,
    });
-
-/*----------------------------------------------------*/
-	 Intro Typer
-/*----------------------------------------------------*/
-	 var element = $(".element");
-	 $(function() {
-		 element.typed({
-			 strings: ["Andre Bass.", "a designer.", "a developer."],
-			 typeSpeed: 100,
-			 loop: true,
-		 });
-	 });
 	 
 /*----------------------------------------------------*/
 /*	contact form
