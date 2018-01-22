@@ -882,7 +882,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #FFFFFF;
+	background-color: #11ABB0;
 }
 #contact button.submit {
 	text-transform: uppercase;
