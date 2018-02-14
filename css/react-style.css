@@ -30,7 +30,7 @@ a {
 }
 
 .left .bg-img {
-  background: url('../img/headshot-1.jpg') center center no-repeat;
+  background: url('images/headshot-1.jpg') center center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
