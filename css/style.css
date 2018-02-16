@@ -245,7 +245,7 @@ dd {
 }
 
 [class^="icon-"]:before, [class * =" icon-"]:before {
-    font-family: FontAwesome;
+    font-family: "icons";
     font-style: normal;
     font-weight: normal;
     speak: none;
@@ -262,6 +262,7 @@ dd {
 
 .icon-arrow-bottom:before {
     content: '\2304'
+    font-family: FontAwesome;
 }
 
 .icon-linkedin:before {
