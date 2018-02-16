@@ -268,16 +268,19 @@ dd {
 .icon-linkedin:before {
     content: "\f08c";
     font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .icon-github:before {
     content: "\f09b";
     font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .icon-mail:before {
     content: "\f0e0";
     font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .icon-mail:before {
@@ -290,7 +293,8 @@ dd {
 
 .icon-phone:before {
     content: "\f095";
-    font-family: FontAwesome;'
+    font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .icon-phone:before {
@@ -299,12 +303,14 @@ dd {
 
 .icon-github:before {
     content: "\f09b";
-    font-family: FontAwesome;'
+    font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .icon-instagram:before {
     content: "\f16d";
     font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .icon-instagram:before {
