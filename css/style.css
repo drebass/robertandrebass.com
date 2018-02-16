@@ -295,6 +295,8 @@ dd {
 }
 
 .icon-github:before {
+    position: relative;
+    font-family: 'FontAwesome';
     content: '\f09b'
 }
 
