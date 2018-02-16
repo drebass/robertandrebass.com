@@ -261,19 +261,23 @@ dd {
 }
 
 .icon-arrow-bottom:before {
-    content: '\2304'
+    content: "\f078";
+    font-family: FontAwesome;
 }
 
 .icon-linkedin:before {
-    content: '\232a'
+    content: "\f08c";
+    font-family: FontAwesome;
 }
 
 .icon-github:before {
-    content: '\232a'
+    content: "\f09b";
+    font-family: FontAwesome;
 }
 
 .icon-mail:before {
-    content: '\232a'
+    content: "\f0e0";
+    font-family: FontAwesome;
 }
 
 .icon-mail:before {
@@ -285,7 +289,8 @@ dd {
 }
 
 .icon-phone:before {
-    content: '\232a'
+    content: "\f095";
+    font-family: FontAwesome;'
 }
 
 .icon-phone:before {
@@ -293,11 +298,13 @@ dd {
 }
 
 .icon-github:before {
-    content: '\232a'
+    content: "\f09b";
+    font-family: FontAwesome;'
 }
 
 .icon-instagram:before {
-    content: '\232a'
+    content: "\f16d";
+    font-family: FontAwesome;
 }
 
 .icon-instagram:before {
