@@ -270,7 +270,6 @@ dd {
 
 .icon-github:before {
     content: '\f09b'
-    font-family: FontAwesome;
 }
 
 .icon-mail:before {
