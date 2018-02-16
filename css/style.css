@@ -320,7 +320,7 @@ dd {
 .icon-twitter:before {
     content: "\f099";
     font-family: FontAwesome;
-    position:relative;
+    margin-right: 1em;;
 }
 
 .button, .button:visited {
