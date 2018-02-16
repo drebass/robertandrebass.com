@@ -388,7 +388,7 @@ a:link, a:visited:link {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     font-weight: 600;
