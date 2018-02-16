@@ -262,7 +262,6 @@ dd {
 
 .icon-arrow-bottom:before {
     content: '\2304'
-    font-family: FontAwesome;
 }
 
 .icon-linkedin:before {
@@ -271,6 +270,7 @@ dd {
 
 .icon-github:before {
     content: '\f09b'
+    font-family: FontAwesome;
 }
 
 .icon-mail:before {
