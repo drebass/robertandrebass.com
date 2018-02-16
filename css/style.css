@@ -265,15 +265,15 @@ dd {
 }
 
 .icon-linkedin:before {
-    content: '\e805'
+    content: '\f08c'
 }
 
 .icon-github:before {
-    content: '\e806'
+    content: '\f09b'
 }
 
 .icon-mail:before {
-    content: '\e800'
+    content: '\f003'
 }
 
 .icon-mail:before {
@@ -285,7 +285,7 @@ dd {
 }
 
 .icon-phone:before {
-    content: '\e802'
+    content: '\f095'
 }
 
 .icon-phone:before {
@@ -293,11 +293,11 @@ dd {
 }
 
 .icon-github:before {
-    content: '\e80c'
+    content: '\f09b'
 }
 
 .icon-instagram:before {
-    content: '\e80e'
+    content: '\f16d'
 }
 
 .icon-instagram:before {
@@ -305,7 +305,7 @@ dd {
 }
 
 .icon-twitter:before {
-    content: '\e807'
+    content: '\f099'
 }
 
 .button, .button:visited {
