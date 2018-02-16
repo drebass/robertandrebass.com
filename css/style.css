@@ -305,7 +305,9 @@ dd {
 }
 
 .icon-twitter:before {
-    content: '\e807'
+    content: "\f099";
+    font-family: FontAwesome;
+    position:relative;
 }
 
 .button, .button:visited {
