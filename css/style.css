@@ -269,13 +269,11 @@ dd {
 }
 
 .icon-github:before {
-    position: relative;
-    font-family: 'FontAwesome';
     content: '\f09b'
 }
 
 .icon-mail:before {
-    content: '\e800'
+    content: '\2709'
 }
 
 .icon-mail:before {
@@ -287,7 +285,7 @@ dd {
 }
 
 .icon-phone:before {
-    content: '\e802'
+    content: '\1f4de'
 }
 
 .icon-phone:before {
@@ -295,8 +293,6 @@ dd {
 }
 
 .icon-github:before {
-    position: relative;
-    font-family: 'FontAwesome';
     content: '\f09b'
 }
 
