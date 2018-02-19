@@ -3,32 +3,32 @@
     font-family: "Arquette Regular";
     font-weight: normal;
     font-style: normal;
-    src: url("/fonts/arquette/eot/ATCArquette-Regular.eot");
-    src: url("/fonts/arquette/eot/ATCArquette-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/arquette/woff2/ATCArquette-Regular.woff2") format("woff2"), url("/fonts/arquette/woff/ATCArquette-Regular.woff") format("woff")
+    src: url("Fonts/arquette/eot/ATCArquette-Regular.eot");
+    src: url("Fonts/arquette/eot/ATCArquette-Regular.eot?#iefix") format("embedded-opentype"), url("Fonts/ATCArquette-Regular.woff2") format("woff2"), url("Fonts/ATCArquette-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: "Arquette Regular Italic";
     font-weight: normal;
     font-style: normal;
-    src: url("/fonts/arquette/eot/ATCArquette-RegularItalic.eot");
-    src: url("/fonts/arquette/eot/ATCArquette-RegularItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/arquette/woff2/ATCArquette-RegularItalic.woff2") format("woff2"), url("/fonts/arquette/woff/ATCArquette-RegularItalic.woff") format("woff")
+    src: url("Fonts/arquette/eot/ATCArquette-RegularItalic.eot");
+    src: url("Fonts/arquette/eot/ATCArquette-RegularItalic.eot?#iefix") format("embedded-opentype"), url("Fonts/ATCArquette-RegularItalic.woff2") format("woff2"), url("Fonts/ATCArquette-RegularItalic.woff") format("woff")
 }
 
 @font-face {
     font-family: "Arquette Medium";
     font-weight: normal;
     font-style: normal;
-    src: url("/fonts/arquette/eot/ATCArquette-Medium.eot");
-    src: url("/fonts/arquette/eot/ATCArquette-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/arquette/woff2/ATCArquette-Medium.woff2") format("woff2"), url("/fonts/arquette/woff/ATCArquette-Medium.woff") format("woff")
+    src: url("Fonts/arquette/eot/ATCArquette-Medium.eot");
+    src: url("Fonts/arquette/eot/ATCArquette-Medium.eot?#iefix") format("embedded-opentype"), url("Fonts/ATCArquette-Medium.woff2") format("woff2"), url("Fonts/ATCArquette-Medium.woff") format("woff")
 }
 
 @font-face {
     font-family: "Arquette Medium Italic";
     font-weight: normal;
     font-style: normal;
-    src: url("/fonts/arquette/eot/ATCArquette-MediumItalic.eot");
-    src: url("/fonts/arquette/eot/ATCArquette-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/arquette/woff2/ATCArquette-MediumItalic.woff2") format("woff2"), url("/fonts/arquette/woff/ATCArquette-MediumItalic.woff") format("woff")
+    src: url("Fonts/arquette/eot/ATCArquette-MediumItalic.eot");
+    src: url("Fonts/arquette/eot/ATCArquette-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Fonts/ATCArquette-MediumItalic.woff2") format("woff2"), url("Fonts/ATCArquette-MediumItalic.woff") format("woff")
 }
 
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
