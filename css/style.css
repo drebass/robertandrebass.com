@@ -329,6 +329,12 @@ dd {
     margin-right: 1em;
 }
 
+.icon-dribbble:before {
+    content: "\f17d";
+    font-family: FontAwesome;
+    margin-right: 1em;
+}
+
 .button, .button:visited {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
