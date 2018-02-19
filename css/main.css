@@ -9131,7 +9131,7 @@ figure {
 }
 
 body {
-    font-family: "Arquette Regular", sans-serif;
+    font-family: 'Oxygen', sans-serif;
     margin: 0;
     padding: 0
 }
@@ -9152,7 +9152,7 @@ body {
 }
 
 em, i {
-    font-family: "Arquette Regular Italic", sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-style: normal
 }
 
