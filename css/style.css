@@ -320,7 +320,13 @@ dd {
 .icon-twitter:before {
     content: "\f099";
     font-family: FontAwesome;
-    margin-right: 1em;;
+    margin-right: 1em;
+}
+
+.icon-blog:before {
+    content: "/f37d";
+    font-family: FontAwesome;
+    margin-right: 1em;
 }
 
 .button, .button:visited {
