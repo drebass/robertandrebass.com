@@ -324,7 +324,7 @@ dd {
 }
 
 .icon-blog:before {
-    content: "/f37d";
+    content: "\f09e";
     font-family: FontAwesome;
     margin-right: 1em;
 }
