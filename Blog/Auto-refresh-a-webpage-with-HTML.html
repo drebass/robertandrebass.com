@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>Designing a Website — Robertandrebass.com</title>
+  <meta name="description" content="An online publication about design and related ideas written by Andre Bass.">
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
+  <link rel="icon" href="/apple-touch-icon-precomposed.png">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+ 
+</head>
+
+<body class="overflow-x-hidden">
+  
+  <div class="header menu-active bg-white
+    h3 vh-100-l
+    br-l b--light-gray
+    fixed-l top-0 left-0 z-max
+    flex justify-between flex-row-reverse flex-row-l items-center items-start-l">
+    
+    <div class="ph4 pv0-l w-100 w-auto-l flex flex-column-l justify-between items-center">
+      
+      <div class="vh-50-l flex items-end">
+        <a href="../Blog" class="no-underline">
+          <h1 class="f4 f3-l ma0">Andre Bass</h1>
+        </a>
+      </div>
+      
+      <div class="fixed-l bottom-0 left-0 inline-flex justify-center items-center ma4-l">
+        <a href="/about" class="o-50 glow">
+          <img src="/images/icon-about.svg" alt="">
+        </a>
+      </div>
+      
+    </div>
+    
+    <div class="menu open">
+      <a href="../Blog" class="vh-100 vh-50-l flex items-center items-end-l justify-center">
+        <img src="/images/icon-menu.svg" class="mb1" alt="">
+      </a>
+    </div>
+    
+  </div>
+  
+  <div id="barba-wrapper">
+    <div class="barba-container menu-active" data-namespace="post">
+  
+  <div class="ph4 ph5-l">
+    
+    <header class="min-vh-50-l lh-solid w-100 mt2 mb5 pt4
+      flex flex-column items-baseline justify-between">
+      <span class="f7 ttu tracked-mega mono silver mb5">
+        20 Feb 2018
+      </span>
+      <h1 class="f2 f1-m f-5-l mt2 mb0 mw7 lh-title lh-solid-l">
+        Auto-refresh a webpage with HTML
+      </h1>
+    </header>
+    
+    <div class="
+      nested-copy-seperator
+      nested-copy-line-height
+      nested-headline-line-height
+      nested-margin-first">
+      <p class="f7 ttu tracked-mega mono silver mb2 pb3">
+        by Andre Bass
+      </p>
+      <div class="measure">
+        <p>I try to steer clear of modifying a page without the user triggering the change, much less automatically refresh or redirect a page. There are times when automatically refreshing the page is important, like when you pull up game play-by-play pages on NFL.com or ESPN.com. Whatever your reason for automatically refreshing the page, keep one thing in mind: auto-refresh only pages that have little interaction -- nothing more than a click.</p>
+
+          <p>I'm currently working on an app that has a dashboard-style page that we needs to be automatically refreshed. After digging around, I realised that the code to do this was ridiculously trivial:</p>
+
+          <h2 id="the-javascipt-method">The JavaScript Method</h2>
+          
+          <figure>
+            <div class="ba b--light-gray mb3">
+            <img src="/images/wire.png" alt="Wirefram for an app I designed" class="db" />
+            </div>
+          <figcaption>
+            Wireframe for an app I designed
+          </figcaption>
+          </figure>
+          
+          <figure>
+            <div class="ba b--light-gray mb3">
+            <img src="/images/wire.png" alt="Wirefram for an app I designed" class="db" />
+            </div>
+          <figcaption>
+            Wireframe for an app I designed
+          </figcaption>
+          </figure>
+          
+          <h2 id="meta-tag-method">UPDATE: META Tag Method/h2>
+          
+          <figure>
+            <div class="ba b--light-gray mb3">
+            <img src="/images/wire.png" alt="Wirefram for an app I designed" class="db" />
+            </div>
+          <figcaption>
+            Wireframe for an app I designed
+          </figcaption>
+          </figure>
+
+          <p>I found a way nicer way of doing this, without needing Javascript. Simple add a refresh meta tag in the header of your html.</p>
+          
+          <figure>
+            <div class="ba b--light-gray mb3">
+            <img src="/images/wire.png" alt="Wirefram for an app I designed" class="db" />
+            </div>
+          <figcaption>
+            Wireframe for an app I designed
+          </figcaption>
+          </figure>
+          
+          <p>(This example refreshes after 10 seconds.)</p>
+          
+          <p>The browser automatically knows how to handle it, and you don't need any messy javascript!</p>
+
+      </div>
+    </div>
+  </div>
+ 
+    <div class="bt bb b--light-gray flex content-stretch justify-end mt6">
+      
+      
+      
+        <a class="hover-bg-near-white no-underline 
+        flex items-center justify-end w-50 tr pv3 pv4-ns ph4 ph5-l bl b--light-gray" href="The-Fear-of-Starting">
+          <span class="pr3 dn db-l">
+            The Fear of Starting
+          </span>
+          <img class="rotate-180" src="/images/icon-arrow.svg" alt="2017 Recap">
+        </a>
+      
+    </div>
+  
+    
+  <div class="mh4 mh5-l pv3 pv4-l gray f7 flex-ns justify-between items-center">
+  <div class="mv3 mv0-ns inline-flex items-center">
+    <a href="/" class="o-50 glow no-underline mr3">
+      <img src="/images/icon-fore.svg" alt="Andre Bass">
+    </a>
+    <a href="https://twitter.com/justdoitbass" class="o-50 glow no-underline mr3">
+      <img src="/images/icon-twitter.svg" alt="Twitter">
+    </a>
+    <a href="https://dribbble.com/AndreBass" class="o-50 glow no-underline mr3">
+      <img src="/images/icon-dribbble.svg" alt="Dribbble">
+    </a>
+    <a href="https://github.com/drebass" class="o-50 glow no-underline">
+      <img src="/images/icon-github.svg" alt="GitHub">
+    </a>
+  </div>
+  <div class="">
+    &copy; 2018 Andre Bass.
+  </div>
+</div>
+  
+</div>
+  </div>
+
+  <script src="/js/anime.min.js" charset="utf-8"></script>
+  <script src="/js/barba.min.js"></script>
+  <script src="/js/highlight.min.js" charset="utf-8"></script>
+  <script src="/js/twig.min.js"></script>
+  <script src="/js/main.js" charset="utf-8"></script>
+</body>
+</html>
