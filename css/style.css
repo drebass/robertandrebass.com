@@ -368,7 +368,7 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.2px;
     color: #626262;
@@ -875,7 +875,7 @@ section {
 }
 
 .thx-message .h2 {
-    font-family: "minion-pro", "Georgia", Cambria, Times New Roman, Times, serif;
+    font-family: 'Merriweather', serif;
     font-weight: normal;
     font-style: italic
 }
