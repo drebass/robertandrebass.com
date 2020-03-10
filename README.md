@@ -1,13 +1,12 @@
 # V1
 
-The third iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Netlify](https://www.netlify.com/).
+The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Netlify](https://www.netlify.com/).
 
 > 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
 >
 > Site is currently not avaliable to download for personal/commercial useage.
 
-👀 [Looking for v2?](https://github.com/drebass/v2)
-👀 [Looking for v1?](https://drebass.github.io)
+👀 [Looking for previous version?](https://github.com/drebass/v3)
 
 ## 🧐 What's inside?
 
