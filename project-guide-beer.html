@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="robots" content="all">
+    <meta name="author" content="Andre Bass">
+    <meta name="description" property="og:description" content="Portfolio of Andre Bass, a developer based in Colorado. I build meaningful scripts and websites.">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@darngoood">
+    <meta name="twitter:title" content="Andre Bass — Front End Developer">
+    <meta name="twitter:description" content="Portfolio of Andre Bass, a developer based in Colorado. I build meaningful scripts and websites.">
+    <meta name="twitter:image" content="Images/1200-630.png">
+    <meta name="twitter:creator" content="@darngoood">
+    
+    <meta property="og:locale" content="en_US">
+    <meta property="fb:admins" content="100004738628644">
+    <meta property="og:title" content="Andre Bass — Front End Developer">
+    <meta property="og:description" content="Portfolio of Andre Bass, a developer based in Colorado. I build meaningful scripts and websites.">
+    <meta property="og:url" content="http://www.robertandrebass.co/">
+    <meta property="og:site_name" content="robertandrebass">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Images/1200-630.png">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robertandrebass.com">
+    <meta property="og:title" content="Andre Bass — Front End Developer">
+    <meta property="og:image" content="Images/1200-630.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="672">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="Images/favicon.ico" />
+    <link rel="canonical" href="https://robertandrebass.com" />
+        
+    <title>Guide Beer — Andre Bass</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,800,900&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116491696-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-116491696-1');
+    </script>
+</head>
+<body>
+    <!-- grid --> 
+    <div class="grid-wrap">
+        <div class="grid">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="grid-overlay">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- progress bar -->
+    <div class="progress-bar">
+        <div id="progress-line"></div>
+    </div>
+
+    <div id="main">
+        <!-- GO BACK -->
+        <div id="go-back">
+          <a href="/">
+            <span class="back-icon">
+                <i></i>
+                <i></i>
+            </span>
+            <span class="back-label">Home</span>
+          </a>  
+        </div>
+        <!-- PROJECT OVERLAY  -->
+        <div id="project-menu">
+            <div class="project-button">
+                <div class="pm-label">
+                    <span>All projects</span>
+                    <span>Close</span>
+                </div>
+                <span class="pm-icon">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </div> 
+        <div id="project-slideout">
+            <svg class="distort" width="600" height="428" viewBox="0 0 600 500">
+                <filter id="distortionFilter">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.01 0.003" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"/>
+                </filter>
+                <g filter="url(#distortionFilter)">
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/ColoradoSeltzer2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/EverAndEver2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/GuideBeerMain2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/TheDecodistsPodcast2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/ReignMain2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/Nota2560x1290.png" height="500" width="313"/>
+                </g>
+            </svg>
+
+            <nav class="menu">
+                <a href="project-out-and-about.html" class="menu__link" data-pc="pc-first">Out &amp; About Hard Seltzer</a><br />
+                <a href="project-ever-and-ever.html" class="menu__link" data-pc="pc-second">Ever &amp; Ever</a><br />
+                <a href="project-guide-beer.html" class="menu__link" data-pc="pc-third">Guide Beer</a><br />
+                <a href="project-decodists.html" class="menu__link" data-pc="pc-fourth">Decodist's Podcast</a>
+                <a href="project-reign.html" class="menu__link" data-pc="pc-fifth">REIGN</a><br />
+                <a href="project-nota.html" class="menu__link" data-pc="pc-sixth">Nota</a>
+            </nav>
+
+            <div class="p-service-list pc-first">
+                <div class="service-placeholder">
+                    <span>Service</span>
+                </div>
+                <ul class="pc-first">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-second">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-third">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-fourth">
+                    <li><span>Branding</span></li>
+                    <li><span>Design Development</span></li>
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-fifth">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-sixth">
+                    <li><span>App Development</li>
+                    <li><span>Branding</span></li>
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+            </div>
+
+            <div class="project-count-wrap">
+                <div class="project-count">
+                    <span class="placeholder">07</span>
+                    <span class="pc-first">01</span>
+                    <span class="pc-second">02</span>
+                    <span class="pc-third">03</span>
+                    <span class="pc-fourth">04</span>
+                    <span class="pc-fifth">05</span>
+                    <span class="pc-sixth">06</span>
+                </div>
+            </div>
+        </div>
+        <!-- PROJECT CONTENT -->
+        <div class="content-wrap" id="wrapper">  
+              
+            <header class="p-header">
+                <div class="p-year"><span class="scene-element ajax-slideleft">Year &mdash; 2019</span></div>
+                <div  class="jm jm-full">
+                    <h3 class="p-title-fraction first">
+                        <span><span class="scene-element ajax-slidebottom">Guide</span></span>
+                    </h3>
+                </div>
+                <div class="jm jm-r-xl jm-os-1 header-img-wrap">
+                    <div class="p-header-img scene-element ajax-slidebottom">
+                        <img id="project-main-img" src="Images/GuideBeerMain2560x1290.png" alt="Guide Beer">
+                    </div>
+                </div>
+                <div class="jm jm-full">
+                    <h3 class="p-title-fraction second">
+                        <span><span class="scene-element ajax-slidebottom">Beer</span></span>
+                    </h3>
+                </div>
+                <div class="jm jm-full">
+                    <h3 class="p-title-fraction third">
+                        <span><span class="scene-element ajax-slidebottom"></span></span>
+                    </h3>
+                </div>
+            </header>
+            <div class="project-about ot-small">
+                <div class="jm jm-r-big jm-os-1">
+                    <ul class="p-deliveries">
+                        <li><span class="scene-element ajax-slideright"><a href="http://guidebeer.com" target="_blank">Launch Site</a></span></li><br /><br /><br />
+                    </ul>
+                </div>
+                <div class="jm jm-r-big jm-os-1">
+                    <ul class="p-deliveries">
+                        <li><span class="scene-element ajax-slideright">Services</span></li><br />
+                        <li><span class="scene-element ajax-slideright">Front-end</span></li>
+                        <li><span class="scene-element ajax-slideright">User Experience</span></li>
+                        <li><span class="scene-element ajax-slideright">Web Development</span></li>
+                    </ul>
+                </div>
+                <div class="jm jm-r-big jm-os-2 ot-small p-description">
+                    <p class="scene-element ajax-slideright">Cheers to the guides who have lead us through rapid waters, tall trees, and the uncharted terrain of the world and ourselves.</p><p class="small scene-element ajax-slideright">Sweetwater Brewery made a beer specifically to honour trusted guides. Using the designs created by 22squared, I built the Guide Beer website dedicated to the tribute brew. Each can of Guide Beer features a map of a location where the guides worked.  Built on React.js with a bunch of CSS animation, this website is dynamic as well as beautiful. </p>
+                </div>
+            </div> 
+            <div class="project-detail-wrap">
+
+                <div class="ot img-detail view">
+                    <div class="section-title">
+                        <h2 class="scene-element ajax-slideright">Home Loop</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <video class="video" autoplay loop muted="muted">
+                            <source src="Videos/GuideBeerHomeloop.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div> 
+                    <div class="section-title spacing-top">
+                        <h2 class="scene-element ajax-slideright">Home Page</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <video class="video" autoplay loop muted="muted">
+                            <source src="Videos/GuideBeer.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
+                    <div class="section-title spacing-top">
+                        <h2 class="scene-element ajax-slideright">Menu</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <video class="video" autoplay loop muted="muted">
+                            <source src="Videos/GuideBeerMenu.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
+                    <div class="section-title spacing-top">
+                        <h2 class="scene-element ajax-slideright">Key West Page</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <video class="video" autoplay loop muted="muted">
+                            <source src="Videos/GuideBeerFirstCan.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
+                    <div class="section-title spacing-top">
+                        <h2 class="scene-element ajax-slideright">Gauley River Page</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <video class="video" autoplay loop muted="muted">
+                            <source src="Videos/GuideBeerFourthCan.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
+                    <div class="section-title spacing-top">
+                        <h2 class="scene-element ajax-slideright">Gauley River Page Detail</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <video class="video" autoplay loop muted="muted">
+                            <source src="Videos/GuideBeerFourthCan2.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
+                    <div class="section-title spacing-top">
+                        <h2 class="scene-element ajax-slideright">Mobile View</h2>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1 jm-clear">
+                        <img class="lazy scene-element ajax-slideright" src="Images/Guide-Mobile.png" data-src="Images/Guide-Mobile.png" data-srcset="Images/Guide-Mobile.png 2x, Images/Guide-Mobile.png 1x" alt="Home page">
+                    </div>
+                </div>
+            </div>
+            <footer class="ot view" id="project-footer">
+                <div class="scroll-top">
+                    <div class="to-top" name="#wrapper">
+                        <div class="scene-element ajax-slideright">BACK TOP</div>
+                    </div>
+                </div>
+                <div class="next-label">
+                    <h2 class="scene-element ajax-slideright">Next Project</h2>
+                </div>
+                <div class="next-project">
+                    <h1><a class="creative scene-element ajax-slideright" href="project-decodists.html">Decodist's Podcast<span></span></a></h1>
+                    <h2><div class="scene-element ajax-slideright"><span>Branding &mdash; Design Development &mdash; Front-end &mdash; User Experience &mdash; Web Development &mdash;</span></div></h2>
+                </div>
+            </footer>         
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="js/scripts.js"></script>
+    <script src="js/main-min.js"></script>
+    <!-- scripts -->
+</body>
+</html>

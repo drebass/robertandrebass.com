@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="robots" content="all">
+    <meta name="author" content="Andre Bass">
+    <meta name="description" property="og:description" content="Portfolio of Andre Bass, a developer based in Colorado. I build meaningful scripts and websites.">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@darngoood">
+    <meta name="twitter:title" content="Andre Bass — Front End Developer">
+    <meta name="twitter:description" content="Portfolio of Andre Bass, a developer based in Colorado. I build meaningful scripts and websites.">
+    <meta name="twitter:image" content="Images/1200-630.png">
+    <meta name="twitter:creator" content="@darngoood">
+
+    <meta property="og:locale" content="en_US">
+    <meta property="fb:admins" content="100004738628644">
+    <meta property="og:title" content="Andre Bass — Front End Developer">
+    <meta property="og:description" content="Portfolio of Andre Bass, a developer based in Colorado. I build meaningful scripts and websites.">
+    <meta property="og:url" content="http://www.robertandrebass.co/">
+    <meta property="og:site_name" content="robertandrebass">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Images/1200-630.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robertandrebass.com">
+    <meta property="og:title" content="Andre Bass — Front End Developer">
+    <meta property="og:image" content="Images/1200-630.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="672">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="Images/favicon.ico" />
+    <link rel="canonical" href="https://robertandrebass.com" />
+    
+    <title>Andre Bass — Front End Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,800,900&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116491696-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-116491696-1');
+    </script>
+</head>
+
+<body class="loading">
+    <div id="loadOverlay"></div>
+    <div class="grid-wrap">
+        <div class="grid">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="grid-overlay">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- progress bar -->
+    <div class="progress-bar">
+        <div id="progress-line"></div>
+    </div>
+
+    <div id="main">
+        
+        <!-- PROJECT OVERLAY  -->
+        <div id="project-menu" class="pushed">
+            <div class="project-button">
+                <div class="pm-label">
+                    <span>All projects</span>
+                    <span>Close</span>
+                </div>
+                <span class="pm-icon">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </div> 
+        <div id="project-slideout">
+            <svg class="distort" width="600" height="428" viewBox="0 0 600 500">
+                <filter id="distortionFilter">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.01 0.003" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"/>
+                </filter>
+                <g filter="url(#distortionFilter)">
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/ColoradoSeltzer2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/EverAndEver2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/GuideBeerMain2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/TheDecodistsPodcast2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/ReignMain2560x1290.png" height="500" width="313"/>
+                    <image class="distort__img" x="50" y="50" xlink:href="Images/Nota2560x1290.png" height="500" width="313"/>
+                </g>
+            </svg>
+
+            <nav class="menu">
+                <a href="project-out-and-about.html" class="menu__link" data-pc="pc-first">Out &amp; About Hard Seltzer</a><br />
+                <a href="project-ever-and-ever.html" class="menu__link" data-pc="pc-second">Ever &amp; Ever</a><br />
+                <a href="project-guide-beer.html" class="menu__link" data-pc="pc-third">Guide Beer</a><br />
+                <a href="project-decodists.html" class="menu__link" data-pc="pc-fourth">Decodist's Podcast</a>
+                <a href="project-reign.html" class="menu__link" data-pc="pc-fifth">REIGN</a><br />
+                <a href="project-nota.html" class="menu__link" data-pc="pc-sixth">Nota</a>
+            </nav>
+
+            <div class="p-service-list pc-first">
+                <div class="service-placeholder">
+                    <span>Service</span>
+                </div>
+                <ul class="pc-first">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-second">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-third">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-fourth">
+                    <li><span>Branding</span></li>
+                    <li><span>Design Development</span></li>
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-fifth">
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+                <ul class="pc-sixth">
+                    <li><span>App Development</li>
+                    <li><span>Branding</span></li>
+                    <li><span>Front-end</span></li>
+                    <li><span>User Experience</span></li>
+                    <li><span>Web Development</span></li>
+                </ul>
+            </div>
+
+            <div class="project-count-wrap">
+                <div class="project-count">
+                    <span class="placeholder">07</span>
+                    <span class="pc-first">01</span>
+                    <span class="pc-second">02</span>
+                    <span class="pc-third">03</span>
+                    <span class="pc-fourth">04</span>
+                    <span class="pc-fifth">05</span>
+                    <span class="pc-sixth">06</span>
+                </div>
+            </div>
+        </div>
+        <div id="logo">
+            <a href="/">
+                <div class="barcode">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 435 229.5" style="enable-background:new 0 0 435 229.5;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+                            .st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+                            .st2{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+                            .st3{fill:none;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;}
+                        </style>
+                        <line class="line st0" x1="3" y1="0" x2="3" y2="229.5"/>
+                        <line class="line st1" x1="10.5" y1="0" x2="10.5" y2="229.5"/>
+                        <line class="line st1" x1="25.5" y1="0" x2="25.5" y2="229.5"/>
+                        <line class="line st1" x1="34.5" y1="0" x2="34.5" y2="229.5"/>
+                        <line class="line st0" x1="42" y1="0" x2="42" y2="229.5"/>
+                        <line class="line st2" x1="52.5" y1="0" x2="52.5" y2="229.5"/>
+                        <line class="line st1" x1="67.5" y1="0" x2="67.5" y2="229.5"/>
+                        <line class="line st2" x1="76.5" y1="0" x2="76.5" y2="229.5"/>
+                        <line class="line st0" x1="87" y1="0" x2="87" y2="229.5"/>
+                        <line class="line st1" x1="100.5" y1="0" x2="100.5" y2="229.5"/>
+                        <line class="line st0" x1="111" y1="0" x2="111" y2="229.5"/>
+                        <line class="line st2" x1="121.5" y1="0" x2="121.5" y2="229.5"/>
+                        <line class="line st1" x1="133.5" y1="0" x2="133.5" y2="229.5"/>
+                        <line class="line st1" x1="145.5" y1="0" x2="145.5" y2="229.5"/>
+                        <line class="line st0" x1="159" y1="0" x2="159" y2="229.5"/>
+                        <line class="line st1" x1="166.5" y1="0" x2="166.5" y2="229.5"/>
+                        <line class="line st0" x1="174" y1="0" x2="174" y2="229.5"/>
+                        <line class="line st1" x1="187.5" y1="0" x2="187.5" y2="229.5"/>
+                        <line class="line st1" x1="199.5" y1="0" x2="199.5" y2="229.5"/>
+                        <line class="line st0" x1="210" y1="0" x2="210" y2="229.5"/>
+                        <line class="line st2" x1="220.5" y1="0" x2="220.5" y2="229.5"/>
+                        <line class="line st0" x1="234" y1="0" x2="234" y2="229.5"/>
+                        <line class="line st2" x1="247.5" y1="0" x2="247.5" y2="229.5"/>
+                        <line class="line st1" x1="259.5" y1="0" x2="259.5" y2="229.5"/>
+                        <line class="line st1" x1="265.5" y1="0" x2="265.5" y2="229.5"/>
+                        <line class="line st2" x1="277.5" y1="0" x2="277.5" y2="229.5"/>
+                        <line class="line st0" x1="288" y1="0" x2="288" y2="229.5"/>
+                        <line class="line st1" x1="298.5" y1="0" x2="298.5" y2="229.5"/>
+                        <line class="line st2" x1="310.5" y1="0" x2="310.5" y2="229.5"/>
+                        <line class="line st0" x1="324" y1="0" x2="324" y2="229.5"/>
+                        <line class="line st2" x1="334.5" y1="0" x2="334.5" y2="229.5"/>
+                        <line class="line st1" x1="346.5" y1="0" x2="346.5" y2="229.5"/>
+                        <line class="line st0" x1="354" y1="0" x2="354" y2="229.5"/>
+                        <line class="line st1" x1="364.5" y1="0" x2="364.5" y2="229.5"/>
+                        <line class="line st1" x1="370.5" y1="0" x2="370.5" y2="229.5"/>
+                        <line class="line st3" x1="387" y1="0" x2="387" y2="229.5"/>
+                        <line class="line st0" x1="399" y1="0" x2="399" y2="229.5"/>
+                        <line class="line st2" x1="415.5" y1="0" x2="415.5" y2="229.5"/>
+                        <line class="line st1" x1="424.5" y1="0" x2="424.5" y2="229.5"/>
+                        <line class="line st0" x1="432" y1="0" x2="432" y2="229.5"/>
+                    </svg>
+                  </div>
+                  <div class="logo-info">
+                    <div>
+                      <span><i class="from-top">A</i></span><span><i class="from-bottom">n</i></span><span><i class="from-left">d</i></span><span><i class="from-top">r</i></span><span><i class="from-left">e</i></span>&nbsp;<span><i class="from-top">B</i></span><span><i class="from-right">a</i></span><span><i class="from-left">s</i></span><span><i class="from-bottom">s</i></span>
+                    </div>
+                    <div>
+                      <span><i class="from-bottom">&copy;</i></span>&nbsp;<span><i class="from-top">2</i></span><span><i class="from-right">0</i></span><span><i class="from-bottom">2</i></span><span><i class="from-left">0</i></span>
+                    </div>
+                    <div>
+                        <span><i class="from-bottom">h</i></span><span><i class="from-left">e</i></span><span><i class="from-top">l</i></span><span><i class="from-bottom">l</i></span><span><i class="from-right">o</i></span><span><i class="from-left">@</i></span><span><i class="from-bottom">r</i></span><span><i class="from-top">o</i></span><span><i class="from-left">b</i></span><span><i class="from-bottom">e</i></span><span><i class="from-right">r</i></span><span><i class="from-top">t</i></span><span><i class="from-bottom">a</i></span><span><i class="from-left">n</i></span><span><i class="from-top">d</i></span><span><i class="from-left">r</i></span><span><i class="from-bottom">e</i></span><span><i class="from-bottom">b</i></span><span><i class="from-left">a</i></span><span><i class="from-top">s</i></span><span><i class="from-bottom">s</i></span><span><i class="from-right">.</i></span><span><i class="from-left">c</i></span><span><i class="from-top">o</i></span><span><i class="from-right">m</i></span>
+                    </div>
+                </div>
+            </a>  
+        </div>
+        <ul id="nav-links" class="">
+            <li class="anchor"><a class="about" href="#about">About</a></li>
+            <li class="anchor"><a class="work" href="#work">Work</a></li>
+            <li class="anchor"><a class="services" href="#services">Services</a></li>
+            <li class="anchor"><a class="contact" href="#contact">Contact</a></li>
+        </ul>
+        <div class="content-wrap" id="wrapper">      
+            <div class="scene-element ajax-fadein">                    
+                <section class="page-section" id="about">
+                    <div class="jm-l-small jm-os-1 float">
+                        <div class="chapter-no text">
+                            <span class="text-left text-left-rev"><span>01</span></span>
+                        </div>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <h1 class="text section-title">
+                            <span class="text-left text-left-rev"><span data-stick-cursor>About</span></span>
+                        </h1>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <p>Hello! I'm <br />Andre Bass, a creative developer and designer, I enjoy building beautiful and thoughtful experiences. I like to mix code, visuals and pleasing interactions. I take my work seriously but not myself.</p>
+                    </div>
+                    <address class="jm jm-r-big jm-os-2">
+                        <div class="icon text">
+                            <img src="Images/arrow.svg" alt="address arrow">
+                        </div>
+                        <div class="address">
+                            <h2 class="text-block">
+                                <span><a href="resume.pdf">Resume</a></span>
+                            </h2>
+                        </div>
+                    </address>
+                </section>
+                <div class="ot"></div>                                 
+                <section class="page-section" id="work">
+                    <div class="jm-l-small jm-os-1 float">
+                        <div class="chapter-no text">
+                            <span class="text-left text-left-rev"><span>02</span></span>
+                        </div>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <h1 class="text section-title">
+                            <span class="text-left text-left-rev"><span>Selected Work</span></span>
+                        </h1>
+                    </div>
+
+                    <div  class="jm jm-r-big jm-os-2">
+                        <h3 class="first text view">
+                            <span class="text-left"><span>p</span></span>
+                            <span class="text-left"><span>o</span></span>
+                            <span class="text-left"><span>r</span></span>
+                        </h3>
+                    </div>
+                    <div  class="jm jm-r-xl jm-os-1">
+                        <h3 class="second text view">
+                            <span class="text-left"><span>t</span></span>
+                            <span class="text-left"><span>f</span></span>
+                            <span class="text-left"><span>o</span></span>
+                            <span class="text-left mdash"><span></span></span>
+                        </h3>
+                    </div>
+                    <div  class="jm jm-r-big jm-os-2">
+                        <h3 class="third text view">
+                            <span class="text-left mdash"><span></span></span>
+                            <span class="text-left"><span>l</span></span>
+                            <span class="text-left"><span>i</span></span>
+                            <span class="text-left"><span>o</span></span>
+                            
+                        </h3>
+                    </div>
+                    
+                    <div class="project-wrap">
+
+                        <div class="p-images">
+                            <div class="p-img-list p-desktop view">
+                                <ul class="p-img-items">
+                                    <li class="project-img"><img class="outandabout show" src="Images/ColoradoSeltzer2560x1290.png" alt="Out & About desktop"></li>
+                                    <li class="project-img"><img class="everandever"  src="Images/EverAndEver2560x1290.png" alt="Ever & Ever desktop"></li>
+                                    <li class="project-img"><img class="guide" src="Images/GuideBeerMain2560x1290.png" alt="Guide desktop"></li>
+                                    <li class="project-img"><img class="reign" src="Images/ReignMain2560x1290.png" alt="REIGN desktop"></li>
+                                    <li class="project-img"><img class="decodists" src="Images/TheDecodistsPodcast2560x1290.png" alt="Decodists Podcast desktop"></li>
+                                    <li class="project-img"><img class="nota" src="Images/Nota2560x1290.png" alt="Nota desktop"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="jm jm-r-big jm-os-2">
+                            <ul class="no-list view">
+                                <li><a class="active" href="project-out-and-about.html" data-project-name="outandabout">Out & About Hard Seltzer</a></li>
+                                <li><a href="project-ever-and-ever.html" data-project-name="everandever">Ever & Ever</a></li>
+                                <li><a href="project-guide-beer.html" data-project-name="guide">Guide Beer</a></li>
+                                <li><a href="project-decodists.html" data-project-name="decodists">Decodist's Podcast</a></li>
+                                <li><a href="project-reign.html" data-project-name="reign">REIGN</a></li>
+                                <li><a href="project-nota.html" data-project-name="nota">Nota</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </section>
+                
+                <section id="highlight">
+                    <div class="jm jm-r-xl jm-os-1">
+                        <h3 class="text mid-section">
+                            <span class="text-bottom text-bottom-rev"><span>I do &mdash;&mdash;</span></span> 
+                            <span class="text-bottom text-bottom-rev"><span>code &amp;</span></span> 
+                            <span class="text-bottom text-bottom-rev creative"><span>design</span></span>
+                        </h3>
+                    </div>
+                    <address class="jm jm-r-big jm-os-2">
+                        <div class="icon text">
+                            <img src="Images/arrow.svg" alt="address arrow">
+                        </div>
+                        <div class="address">
+                            <h2 class="text-block">
+                                <span>Business inquiries</span>
+                            </h2>
+                            <div class="ea email-address-1"></div>
+                            <noscript>Sorry, you need Javascript on to email me.</noscript>
+                        </div>
+                    </address>
+                </section>
+                <section class="page-section ot" id="services">
+                    <div class="jm-l-small jm-os-1 float">
+                        <div class="chapter-no text">
+                            <span class="text-left text-left-rev"><span>03</span></span>
+                        </div>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <h1 class="text section-title">
+                            <span class="text-left text-left-rev"><span>Services</span></span>
+                        </h1>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <h3 class="second text">
+                            <span class="text-left"><span>e</span></span>
+                            <span class="text-left"><span>x</span></span>
+                            <span class="text-left"><span>p</span></span>
+                        </h3>
+                    </div>
+                    <div class="jm jm-r-xl jm-os-1">
+                        <h3 class="third text">
+                            <span class="text-left"><span>e</span></span>
+                            <span class="text-left"><span>r</span></span>
+                            <span class="text-left"><span>t</span></span>
+                            <span class="text-left mdash"><span></span></span>
+                        </h3>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <h3 class="fourth text">
+                            <span class="text-left mdash"><span></span></span>
+                            <span class="text-left"><span>i</span></span>
+                            <span class="text-left"><span>s</span></span>
+                            <span class="text-left"><span>e</span></span>
+                        </h3>
+                    </div>
+                    <div class="service-wrap">
+                        <div class="counter-wrap view">
+                            <div class="counter">
+                                <ul class="creative">
+                                    <li>1</li>
+                                    <li>1</li>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>2</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>3</li>
+                                </ul>
+                                <span>years</span>
+                            </div>
+                        </div>
+                        <div class="jm jm-r-xl jm-os-1">
+                            <div class="serv-description">
+                                <p>Currently working with good people and pushing pixels as a senior at Colorado State Universtiy. Developing (and designing) exceptional, high-quality exeperiences and applications is my speciality. Interested in projects dealing with web development, cybersecurity and mobile app development. In my spare time, you can find me creating a new illustration, skiing or reading another book about space, but hey, who likes long descriptions anyway?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="jm jm-r-big jm-os-2">
+                        <ul class="no-list view">
+                            <li><span>Web Design</span></li>
+                            <li><span>User Experience</span></li>
+                            <li><span>DevOps and Cybersecurity</span></li>
+                            <li><span>Strong knowledge of HTML/CSS/JS</span></li>
+                            <li><span>Creative coding : physics, 2D, 3D, motion</span></li>
+                            <li><span>Producing neat, tested, readable and well documented code</span></li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <!-- <section class="ot" id="awards">
+                    <div class="jm jm-r-xl jm-os-1">
+                        <h3 class="text mid-section">
+                            <span class="text-bottom"><span>Honors &amp;</span></span>
+                            <span class="text-bottom creative"><span>Awards</span></span>
+                        </h3>
+                    </div>
+                    <div class="awards-list">
+                        <div class="beat">
+                            <svg width="500px" height="500px" viewBox="-100 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" transform="rotate(15.000000)">
+                                    <path class="beat-line beat-outter" d="M68.0979729,3.94511845 C60.7239608,16.8055684 -1.83113327,54.7978205 1.06096528,110.961337 C2.21006406,133.276424 6.80606139,134.61863 11.6115927,150.336815 C16.3115507,165.709685 11.5028299,193.589281 40.1984217,225.02532 C77.6510039,266.054648 153.971325,288.496776 196.62635,275.455826 C261.651896,255.575522 276.816425,176.59473 244.029633,118.553547 C222.171772,79.8594248 189.804605,60.5148528 146.928131,60.5198311 C135.254883,57.2636258 124.310631,48.1248359 114.095374,33.1034612 C98.7724885,10.5713992 80.1008849,-5.28527076 68.0979729,3.94511845 Z" id="Path-3-Copy-13"></path>
+                                    <path class="beat-line beat-outter" d="M69.4618068,5.10601967 C62.0877947,17.9664696 9.96264297,50.2455238 8.43041809,101.785078 C7.76632919,124.123083 16.4710123,130.770738 18.7998707,140.484402 C22.5587045,156.162492 17.704383,182.897048 46.3999749,214.333087 C83.8525571,255.362415 157.188367,277.045782 202.574162,258.230553 C262.56186,233.361929 255.048528,145.281346 223.567593,99.9868239 C209.172847,80.0461638 184.646468,66.8401226 149.988454,60.3687002 C137.589782,58.6305996 125.876729,50.2534927 114.849297,35.2373795 C98.3081479,12.7132096 80.3459955,-3.26405735 69.4618068,5.10601967 Z" id="Path-3-Copy-16"></path>
+                                    <path class="beat-line beat-outter" d="M69.4618068,5.10601967 C62.0877947,17.9664696 19.8546235,53.553818 14.6540138,90.9267257 C11.5795844,113.020359 22.0819377,124.77503 24.4107961,134.488694 C28.1696299,150.166784 22.4039626,172.334528 51.0995544,203.770567 C88.5521367,244.799895 156.879298,261.101315 194.368911,247.170903 C251.817588,225.824091 244.316343,141.713578 212.835408,96.419056 C198.440662,76.4783959 177.491678,64.4616106 149.988454,60.3687002 C137.786227,58.853688 126.073175,50.4765811 114.849297,35.2373795 C98.0134794,12.3785771 81.4647188,-4.12436953 69.4618068,5.10601967 Z" id="Path-3-Copy-11"></path>
+                                    <path class="beat-line beat-outter" d="M70.746851,5.49845403 C64.2723029,16.7902177 28.1994949,51.2641723 23.4907073,85.5916379 C20.7048288,105.900931 26.0420286,116.124809 29.462541,124.017769 C36.0030828,139.110314 26.7287321,171.0187 70.9895059,205.064043 C103.470817,230.048636 155.527298,249.106239 189.756472,234.718944 C228.030313,218.631583 232.670438,152.489385 208.851666,103.081149 C198.766451,82.3344385 179.972773,68.0281032 152.470633,60.1621433 C140.363871,59.9779708 128.650819,51.6008639 117.331475,35.0308226 C100.352459,10.1757607 82.749763,-3.73193518 70.746851,5.49845403 Z" id="Path-3-Copy-15"></path>
+                                    <path class="beat-line beat-outter" d="M70.746851,5.49845403 C64.2723029,16.7902177 39.3913354,46.4439002 31.2594411,76.8163524 C26.5754635,94.3109089 30.8038132,105.465467 34.2243256,113.358428 C40.7648674,128.450972 30.1634576,159.356468 74.4242314,193.401811 C106.905542,218.386404 150.193894,233.913453 179.212857,222.058894 C212.642438,208.402549 223.254654,149.417683 199.435883,100.009448 C191.529844,82.1874433 175.874761,68.9050084 152.470633,60.1621433 C141.402253,60.2499954 129.6892,51.8728884 117.331475,35.0308226 C98.7948869,9.76772388 82.749763,-3.73193518 70.746851,5.49845403 Z" id="Path-3-Copy-12"></path>
+                                    <path class="beat-line beat-outter" d="M70.1380527,6.95158403 C63.6635046,18.2433477 45.6649851,42.3769607 37.5330908,72.7494128 C32.8491133,90.2439694 35.706,102.535356 39.1265125,110.428316 C45.6670543,125.520861 34.528028,154.865423 80.3025342,185.459989 C117.212141,210.129473 144.64718,220.326335 169.955876,211.796851 C203.910293,200.353604 206.761067,149.732014 190.463707,102.413535 C183.15507,84.5852902 170.490711,70.5014929 152.470633,60.1621433 C140.864279,59.9077457 129.151226,51.5306388 117.331475,35.0308226 C99.6018486,10.2810983 82.1409647,-2.27880518 70.1380527,6.95158403 Z" id="Path-3-Copy-14"></path>
+                                    <g  class="beat-line" >
+                                        <path d="M68.7297354,2.65948158 C58.5258424,20.45531 27.8637531,79.3275804 45.2133118,111.755464 C43.5949298,137.878949 54.462559,174.543785 134.822942,199.978121 C215.183325,225.412457 184.619956,82.3766706 161.667498,66.8513516 C157.535251,63.6044599 153.691462,61.3013342 150.136133,59.9419745 C152.729465,58.1315991 156.573253,57.2264114 161.667498,57.2264114 C169.308866,57.2264114 165.803247,30.7157404 154.690917,26.2788829 C147.282698,23.3209778 134.051384,26.1649014 114.996975,34.8106537 C110.829021,30.8939021 105.150856,28.0499785 97.9624815,26.2788829 C101.510109,20.3963904 103.398396,16.6855067 102.454253,13.8236968 C101.510109,10.9618868 80.7326474,-6.57090762 68.7297354,2.65948158 Z" fill="#000000"></path>
+                                        <path d="M149.965423,60 C136.105155,64.3840707 115.562931,77.4896271 119.490213,101.811182 C122.108402,118.025552 135.944997,130.755158 161,140" ></path>
+                                        <path d="M134,125 C138.697684,130.893982 137.693895,144.04961 136.364632,152.59084 C135.478456,158.284992 136.023579,164.088046 138,170" ></path>
+                                        <path d="M120,105 C120,117.101667 119.206758,130.529299 111,140" id="Path-6"></path>
+                                        <path d="M115,35 C104.779561,41 94,50.1574921 85.5,60" id="Path-7"></path>
+                                        <path d="M98,26 C94.3220276,32.0193642 93.1804579,37.0193642 94.5752909,41" id="Path-14"></path>
+                                        <path d="M127,74 C119.43892,83.6676876 111.069115,103.283728 100,107" id="Path-15"></path>
+                                        <path d="M69,3 C69.9678154,8.56897317 93.5746282,20.6130003 102,14.1361859" id="Path-11"></path>
+                                        <path d="M150.289908,25.4848106 C147.395688,37.1530095 147.409735,48.7320961 160.390651,57.2981098" id="Path-13"></path>
+                                    </g>
+                                </g>
+                            </svg>  
+                        </div> 
+                        <div class="jm jm-r-big jm-os-2">
+                            <ul class="no-list view">
+                                <li>
+                                   <span class="acc-item">1 x Awwwards <i class="openToggle"></i></span>
+                                   <div class="reveal">
+                                        <a href="https://www.awwwards.com/sites/andre-bass" target="_blank">
+                                            <i class="arrow"></i>
+                                            <span>2019 &mdash; SITE OF THE DAY</span>
+                                            <span>Andre Bass</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="acc-item">1 x CSSDA <i class="openToggle"></i></span>
+                                    <div class="reveal">
+                                        <a href="https://www.cssdesignawards.com/judges/andre-bass/1726/" target="_blank">
+                                            <i class="arrow"></i>
+                                            <span>2019 &mdash; JOINING A JURY PANEL</span>
+                                            <span>Andre Bass</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                   <span class="acc-item">1 x FWA <i class="openToggle"></i></span>
+                                   <div class="reveal">
+                                        <a href="https://thefwa.com/cases/" target="_blank">
+                                            <i class="arrow"></i>
+                                            <span>2019 &mdash; Featured of the day</span>
+                                            <span>Guide Beer</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>12 x Others</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section> -->
+
+                <section class="page-section ot" id="contact">
+                    <div class="jm-l-small jm-os-1 float">
+                        <div class="chapter-no text">
+                            <span class="text-left text-left-rev"><span>04</span></span>
+                        </div>
+                    </div>
+                    <div class="jm jm-r-big jm-os-2">
+                        <h1 class="text section-title">
+                            <span class="text-left text-left-rev"><span>Contact</span></span>
+                        </h1>
+                    </div>
+                    <div  class="jm jm-r-big jm-os-2">
+                        <h3 class="first text title">
+                            <span class="text-left"><span>g</span></span>
+                            <span class="text-left"><span>e</span></span>
+                            <span class="text-left"><span>t</span></span>
+                        </h3>
+                    </div>
+                    <div  class="jm jm-r-big jm-os-2">
+                        <h3 class="second text title">
+                            <span class="text-left"><span>i</span></span>
+                            <span class="text-left"><span>n</span></span>
+                        </h3>
+                    </div>
+                    <div  class="jm jm-r-xl jm-os-1">
+                        <h3 class="third text title">
+                            <span class="text-left"><span>t</span></span>
+                            <span class="text-left"><span>o</span></span>
+                            <span class="text-left"><span>u</span></span>
+                            <span class="text-left mdash"><span></span></span>
+                        </h3>
+                    </div>
+                    <div  class="jm jm-r-big jm-os-2">
+                        <h3 class="fourth text title">
+                            <span class="text-left mdash"><span></span></span>
+                            <span class="text-left"><span>c</span></span>
+                            <span class="text-left"><span>h</span></span>
+                        </h3>
+                    </div>
+                    <address class="jm jm-r-big jm-os-2">
+                        <div class="icon text">
+                            <img src="Images/arrow.svg" alt="address arrow">
+                        </div>
+                        <div class="address view">
+                            <h2 class="text-block view">
+                                <span>Business inquiries</span>
+                            </h2>
+                            <div class="ea email-address-2"></div>
+                            <noscript>Sorry, you need Javascript on to email me.</noscript>
+
+                            <div class="social">
+                                <h2 class="text-block view">
+                                    <span>Connect</span>
+                                </h2>
+                                <ul class="social-icons">
+                                    <li class="view"><a href="https://github.com/drebass" target="_blank"><span>Github</span><img src="Images/social-github.svg" alt="Dribbble"></a></li>
+                                    <li class="view"><a href="https://www.behance.net/rabass" target="_blank"><span>Behance</span><img src="Images/social-behance.svg" alt="Dribbble"></a></li>
+                                    <li class="view"><a href="https://www.linkedin.com/in/rabass/" target="_blank"><span>Linkedin</span><img src="Images/social-linkedin.svg" alt="LinkedIn"></a></li>
+                                    <li class="view"><a href="https://dribbble.com/darngoood" target="_blank"><span>Twitter</span><img src="Images/social-twitter.svg" alt="Dribbble"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </address>
+                    <footer class="hp-footer">
+
+                        <div class="jm jm-r-big jm-os-2">
+                            <h2 class="text change">
+                                <span class="text-left text-left-rev"><span>Credits</span></span>
+                            </h2>
+                        </div>
+                        <div class="f-image">
+                            <div class="f-img-inner">
+                                <img alt="Andre Bass" src="Images/HeaderPhoto-1.png"/>
+                            </div>
+                        </div>
+                        <div class="f-image-mobile">
+                            <img src="Images/HeaderPhoto-1.png" alt="Andre Bass"/>
+                        </div>
+                        <div class="jm jm-r-xl jm-os-1 credit">
+                            <h3 class="text change mid-section">
+                                <span class="text-bottom"><span>Design &amp;</span></span><br/>
+                                <span class="text-bottom"><span>code by</span></span><br/>
+                                <span class="text-bottom creative"><span>Yours</span></span><br/>
+                                <span class="text-bottom"><span>Truly</span></span>
+                            </h3>
+                        </div>
+                        <div class="jm jm-r-big jm-os-2 copy">
+                            <div class="text-left text-left-rev clock">
+                                <div class="hours">
+                                  <div class="first">
+                                    <div class="number">0</div>
+                                  </div>
+                                  <div class="second">
+                                    <div class="number">0</div>
+                                  </div>
+                                </div>
+                                <div class="tick">:</div>
+                                <div class="minutes">
+                                  <div class="first">
+                                    <div class="number">0</div>
+                                  </div>
+                                  <div class="second">
+                                    <div class="number">0</div>
+                                  </div>
+                                </div>
+                                <div class="tick">:</div>
+                                <div class="seconds">
+                                  <div class="first">
+                                    <div class="number">0</div>
+                                  </div>
+                                  <div class="second infinite">
+                                    <div class="number">0</div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="jm jm-r-big jm-os-2 copy">
+                            <h2 class="text change">
+                                <span class="text-left text-left-rev"><span>Andre Bass &copy; 2020</span></span>
+                            </h2>
+                        </div>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="js/scripts.js"></script>
+    <script src="js/main-min.js"></script>
+    <script src="js/time.js"></script>
+    <!-- scripts -->
+</body>
+</html>
