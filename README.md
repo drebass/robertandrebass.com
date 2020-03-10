@@ -1,6 +1,6 @@
 # V1
 
-The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Netlify](https://www.netlify.com/).
+The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Zeit](https://www.zeit.co/).
 
 > 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
 >
@@ -16,44 +16,26 @@ A quick look at the top-level files and directories in this project.
     ├── Images
     ├── Videos
     ├── js
-    ├── about.html
-    ├── architech-portfolio.html
-    ├── cs370-final-project.html
-    ├── csucr.html
+    ├── static
+    ├── .htaccess
     ├── index.html
-    ├── nota.html
-    ├── photography-portfolio.html
-    ├── rulesoffed.html
-    ├── styles.css
-    ├── the-decodists.html
-    └── works.html
+    ├── main.css
+    ├── project-decodists.html
+    ├── project-ever-and-ever.html
+    ├── project-guide-beer.html
+    ├── project-nota.html
+    ├── project-out-and-about.html
+    └── project-reign.html
 
-1. **`/Images`**: The directory where all of the photos used on the site are stored.
+1. **`/Images`**: The directory holds all the photos
 
-2. **`/Videos`**: This directory will contain all of the videos uploaded for the site.
+2. **`/Videos`**: This directory holds all the videos
 
-3. **`.js`**: This directory holds a single js file for the front-end of the site.
+3. **`.js`**: This directory holds js file(s)
 
-4. **`.prettierrc`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
+4. **`static`**: This directory holds PDFs, DOCXs
 
-5. **`about.html`**
+5. **`.htaccess`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
 
-6. **`architech-portfolio.html`**
-
-7. **`cs370-final-project.html`**
-
-8. **`csucr.html`**
-
-9. **`index.html`**: Main file for the site.
-
-10. **`nota.html`**
-
-11. **`photography-portfolio.html`**
-
-12. **`rulesoffed.html`**
-
-13. **`styles.css`**: A css file containing all the styling needed for the project.
-
-14. **`the-decodists.html`**
-
-12. **`works.html`**
+## License
+Copyright 2020 Andre Bass. Code released under the [MIT](LICENSE.md) license.
