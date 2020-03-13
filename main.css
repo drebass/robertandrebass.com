@@ -7171,56 +7171,13 @@ address .address.in-view a span {
     .p-deliveries {
         font-size: .75em
     }
-}
+    
+    #contact .social .social-icons li {
+        margin-right: 2em;
+    }
 
-.clock {
-    height: 100px;
-    color: white;
-    font-size: 35px;
-    letter-spacing: 4px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 110px;
-    display: flex;
-    position: relative;
-    /*background: green;*/
-    overflow: hidden;
-}
-  
-.clock::before, .clock::after {
-    content: '';
-    width: 7ch;
-    height: 19px;
-    background: linear-gradient(to top, transparent, black);
-    position: absolute;
-    z-index: 2;
-}
-  
-.clock::after {
-    bottom: 0;
-    background: linear-gradient(to bottom, transparent, black);
-}
-  
-.clock > div {
-    display: flex;
-}
-  
-.tick {
-    line-height: 100px;
-}
-  
-.tick-hidden {
-    opacity: 0;
-}
-  
-.move {
-    animation: move linear 1s infinite;
-}
-  
-@keyframes move {
-    from {
-      transform: translateY(0px);
+    #contact .p-deliveries {
+        font-size: 1.2em;
+        font-weight:400
     }
-    to {
-      transform: translateY(-100px);
-    }
-}  
+}
