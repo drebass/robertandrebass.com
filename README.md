@@ -17,7 +17,6 @@ A quick look at the top-level files and directories in this project.
     ├── Videos
     ├── js
     ├── static
-    ├── .htaccess
     ├── index.html
     ├── main.css
     ├── project-decodists.html
@@ -34,8 +33,6 @@ A quick look at the top-level files and directories in this project.
 3. **`.js`**: This directory holds js file(s)
 
 4. **`static`**: This directory holds PDFs, DOCXs
-
-5. **`.htaccess`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
 
 ## License
 Copyright 2020 Andre Bass. Code released under the [MIT](LICENSE.md) license.
