@@ -1,6 +1,6 @@
 # V1
 
-The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Zeit](https://www.zeit.co/).
+The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Vercel](https://www.vercel.co/).
 
 > 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
 >
