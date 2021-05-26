@@ -1,6 +1,6 @@
-# V1
+# V3
 
-The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Vercel](https://www.vercel.co/).
+The newest iteration of my personal site built with [JavaScript](https://www.javascript.com) and hosted with [Vercel](https://vercel.com).
 
 > 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
 >
@@ -35,4 +35,4 @@ A quick look at the top-level files and directories in this project.
 4. **`static`**: This directory holds PDFs, DOCXs
 
 ## License
-Copyright 2020 Andre Bass. Code released under the [MIT](LICENSE.md) license.
+Copyright 2021 Andre Bass. Code released under the [MIT](LICENSE.md) license.
